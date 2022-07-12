@@ -85,3 +85,7 @@ In our code demo today we'll do the following:
 - snake_case
 - camelCase
 - TitleCase
+
+## Other Resources
+
+- [Replit: Datatypes and Opperators](https://replit.com/@sheyna/FastOverjoyedBases#index.js)
