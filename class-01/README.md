@@ -69,3 +69,7 @@ In the lower left-hand corner of VSCode, click on the gear icon and select "Sett
 - "editor.tabSize" should be set to 2
 - "editor.detectIndentation" should be set to true
 - "editor.wordWrap" should be set to "on"
+
+### Resources
+
+- [HTML validator](https://validator.w3.org/#validate_by_input)
