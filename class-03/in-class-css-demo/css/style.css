@@ -1,0 +1,70 @@
+* {
+  /* This changes the way "width" is calaculated */
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3rem;
+  /* text-align: center; */
+  margin: auto;
+  width: max-content;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+.picture {
+  width: 400px;
+  padding: 30px;
+  border: 10px solid red;
+  background-color: darkseagreen;
+}
+
+/* Display page */
+
+/* div, span {
+  border: 1px solid black;
+  padding: 25px;
+  margin: 25px;
+  margin-top: 50px;
+} */
+
+p {
+  background-color: pink;
+  clear: both;
+}
+
+span {
+  color: red;
+  font-size: 2rem;
+  /* display: block; */
+}
+
+aside {
+  background-color: aqua;
+  overflow: auto;
+}
+
+aside div {
+  border: 1px solid black;
+  padding: 25px;
+  margin: 25px;
+  /* display: inline-block; */
+  float: right;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+#div2 {
+  background-color: darkorange;
+}
+
+div:nth-child(2) {
+  font-size: 2rem;
+}
