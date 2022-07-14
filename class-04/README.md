@@ -56,3 +56,7 @@ Here's the basics of what you need to know about *pair programming*. This is a m
 - Under no circumstances does the Navigator work on any code on their laptop: for the pair programming process to be effective, both parties must be fully engaged on the code they're working on together.
 - The lab time should be divided into two sections of approximately two hours each. At the halfway mark, you should swap roles and work on the other person's code. Remember to watch the clock and determine the best point to swap roles.
 - In the case of an odd number of students, one group will have three members and they should rotate through three roles: Driver, Navigator, Observer. Each student should take on each role one time. They will need to be even more mindful about watching the clock to ensure that equal time is devoted to all three roles.
+
+### Resources
+
+- [Replit: Intro to functions](https://replit.com/@sheyna/ExtrasmallFrenchTrial#index.js)
