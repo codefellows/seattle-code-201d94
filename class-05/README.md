@@ -46,3 +46,8 @@ The lab for this class is a 'one-off' lab, in that it is not directly connected 
 You'll be working individually. The GitHub workflow today is different, too, and is designed to give you a lot of practice working with branches, which is the last major piece of Git for us to cover. We need to spend a bit of time with it, and get practice with it, so that you understand what you are doing.
 
 The concepts covered in this lab assignment (functions that receive input and return output) will be VERY VERY helpful for you in our next big project. Ideally you will continue to work on little problems like this for additional practice.
+
+## Resources
+
+- [Replit: array methods](https://replit.com/@sheyna/AutomaticOutrageousDeprecatedsoftware#index.js);
+- [Replit: functions demo](https://replit.com/@sheyna/BrownOldfashionedDebugger#index.js);

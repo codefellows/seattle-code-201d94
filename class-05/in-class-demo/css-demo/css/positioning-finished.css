@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 1rem
+}
+
+h2 {
+  font-weight: bold;
+}
+
+section {
+  border: medium solid red;
+  margin: 1rem;
+  padding: 1rem;
+  position: static;
+  height: 60rem;
+}
+
+article {
+  border: medium solid black;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+article#one {
+  top: 1rem;
+  left: 100px;
+  position: relative;
+  width: 20%;
+  background-color: linen;
+}
+
+article#two {
+  width: 50%;
+  position: absolute;
+  right: 20px;
+  top: 4rem;
+  background-color: lavenderblush;
+}
+
+article#three {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  background-color: beige
+}

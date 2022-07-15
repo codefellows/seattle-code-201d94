@@ -1,0 +1,37 @@
+
+div, span {
+  border: 1px solid gray;
+}
+h1 {
+  font-size: 2rem;
+}
+
+div.car {
+  border-color: green;
+}
+
+.car {
+  border: 2px solid red;
+}
+
+div span {
+  background-color: orange;
+}
+
+div > span {
+  background-color: pink;
+}
+
+/* psudo class */
+.car:hover {
+  background-color: lime;
+}
+
+/* psuedo elements */
+.car::before {
+  content: 'car before';
+}
+
+.car::after {
+  content: 'car after';
+}

@@ -1,0 +1,64 @@
+* {
+  /*
+    calculate width (and height)
+    to include content, padding and border
+  */
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 1rem
+}
+h2 {
+  font-weight: bold;
+}
+
+section {
+  border: 15px solid red;
+  /* border-width: 20px;
+  border-color: red;
+  border-style: dashed; */
+  width: 80%;
+  /* margin: auto; */
+  /* margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem; */
+  margin: 5rem auto 0 auto;
+  /* overflow: auto; */
+  /* position:relative; */
+}
+
+/* Clear fix hack */
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+section.car {
+  border-color: green;
+}
+
+/* span {
+  background-color: bisque;
+  display: block;
+} */
+
+div {
+  border: medium solid black;
+  margin: 1rem;
+  padding: 1rem;
+  /* float: left; */
+  width: min-content;
+  display: block;
+  position: absolute;
+}
+
+#two {
+  left: 200px
+}
+
+#three {
+  top: 50px
+}
