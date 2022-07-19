@@ -44,3 +44,4 @@ The instructor will have a 15-minute one-on-one meeting with each student during
 ## Resources
 
 - [Replit: Objects](https://replit.com/@sheyna/PettySomberTriangles#index.js)
+- [Replit: Objects 2](https://replit.com/@sheyna/LongtermWorthyArrays#index.js)
