@@ -1,6 +1,6 @@
 # Object-Oriented Programming with Constructor Functions: HTML Tables
 
-## Overview 
+## Overview
 
 This class will introduce inheritance with constructor functions, plus adding another dimension to dynamic DOM rendering by creating a table instead of lists from stored array data.
 
@@ -36,3 +36,7 @@ This class will introduce inheritance with constructor functions, plus adding an
 1. How does the term `this` differ when reference an object literal versus a Constructor function?
 
 1. What are some HTML elements that make up an HTML table?
+
+## Resources
+
+- [Replit: Object Constructor Functions](https://replit.com/@sheyna/FatalFoolishLinux#index.js)
