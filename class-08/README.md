@@ -42,3 +42,4 @@ In this class you will learn to layout a page using CSS and HTML with a given a 
 - [Flexbox Cheatsheet](https://jonitrythall.com/content/flexboxsheet.pdf)
 - [Flexbox Froggy excerise](https://flexboxfroggy.com/)
 - [Using fonts](https://www.picmonkey.com/blog/font-pairing-like-a-pro)
+- [Replit: Using 2D Arrays](https://replit.com/@sheyna/MurkyInsecureConditional#index.js)
