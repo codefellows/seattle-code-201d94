@@ -1,0 +1,24 @@
+form {
+  /* margin-top: 800px; */
+  border: 3px solid blue;
+  padding: 20px;
+}
+
+input {
+  display: block;
+  margin-bottom: 25px;
+}
+
+input[type=radio],
+input[type=checkbox] {
+  display: inline-block;
+}
+
+label {
+  display: block;
+}
+
+select {
+  display: block;
+  margin-bottom: 25px;
+}

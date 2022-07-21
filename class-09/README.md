@@ -43,3 +43,8 @@ In this class you will be learn JavaScript Events and how they can bring interac
 1. An `<input>` element can be displayed in many ways, depending on the `_______` attribute.
 
 1. What does `event.preventDefault()` do?
+
+## Resources
+
+- [Replit: DOM Level 2 event handlers and Callbacks](https://replit.com/@sheyna/EarnestOvalProprietarysoftware#index.js)
+- [HTML Table example](https://www.w3schools.com/tags/tag_tbody.asp)
