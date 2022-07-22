@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Adopt a Kitten</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <script src="https://kit.fontawesome.com/73967d9881.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Adopt a Kitten</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Kittens Available for Adoption:</h2>
+      <div id="kittenProfiles">
+
+      </div>
+
+      <h2>Things the Kittens Like</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>1st Fav</th>
+            <th>2nd Fav</th>
+            <th>3rd Fav</th>
+          </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>data</td>
+            <td>data</td>
+            <td>data</td>
+            <td>data</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+    <aside>
+      <form>
+        <fieldset>
+          <legend>Add a Kitten</legend>
+          <!-- Kitten(name, like, about, src)  -->
+          <label>Kitten's name:
+            <input type="text" required name="kittenName">
+          </label>
+          <label>Kitten's age in months
+            <input type="number" step=0.1 name="ageInMonths">
+          </label>
+          <label>About kitten:
+            <textarea name="about"></textarea>
+          </label>
+          <label>Photo URL:
+            <input type="url" name="imageURL">
+          </label>
+          <label>Kitten's favorite thing
+            <input type="text" name="fav1">
+          </label>
+          <label>Kitten's 2nd favorite thing
+            <input type="text" name="fav2">
+          </label>
+          <label>Kitten's 3rd favorite thing
+            <input type="text" name="fav3">
+          </label>
+        </fieldset>
+        <button type="submit">Add Kitten</button>
+      </form>
+    </aside>
+  </main>
+  <footer>
+    <a href="#">
+        <i aria-hidden="true" class="fa-brands fa-twitter-square">
+          <span class="sr-only">Follow us on Twitter</span>
+        </i>
+    </a>
+  </footer>
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>

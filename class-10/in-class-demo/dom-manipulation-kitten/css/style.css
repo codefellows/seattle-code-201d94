@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: lightcyan;
+}
+
+body {
+  background-color: rgb(243, 252, 252);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  font-size: 3rem;
+  /*font-style: italic;*/
+  padding: 1rem;
+  color:  rgb(112, 159, 165);
+  border-bottom: 10px double rgb(112, 159, 165);
+  font-family: 'Nunito', sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: 3rem auto;
+  display: flex;
+}
+main > section {
+  flex-basis: 60%;
+}
+main > aside {
+  flex-basis: 36%;
+}
+
+article {
+  border: 1px solid rgb(112, 159, 165);
+  padding: 1rem;
+  margin: 1rem;
+}
+
+h2 {
+  color: rgb(112, 159, 165);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+  color: rgb(112, 159, 165);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+ul {
+  margin-left: 1rem;
+  list-style: square;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+footer {
+  padding: 1rem;
+}
+
+a {
+  color: rgb(112, 159, 165);
+}
+
+/* .test-class {
+ border: 2px solid purple;
+} */
+
+/* TABLE STYLES */
+
+table, td, th {
+  border: 1px solid rgb(112, 159, 165);
+}
+table {
+  margin: 1rem;
+}
+td, th {
+  padding: 1rem;
+}
+thead th {
+  font-weight: bold;
+}
+tfoot {
+  background-color: rgba(112, 159, 165, .1);
+}
+
+
+/* -- Form styles -- */
+form {
+  width: 100%;
+  margin-top: 2rem;
+}
+fieldset {
+  border: 1px solid rgb(112, 159, 165);
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+legend {
+  color: rgb(112, 159, 165);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+textarea,
+label,
+input {
+  display: block;
+}
+
+textarea,
+input {
+  margin-bottom: 1rem;
+}
+
+/* Icons */
+
+footer .fa-brands {
+  font-size: 3rem;
+}
+
+.fa-twitter-square {
+  color: blue;
+}
