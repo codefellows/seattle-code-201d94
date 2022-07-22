@@ -68,3 +68,18 @@ Learning how to **debug** your code will help you to better identify the errors 
 1. Check "Enable Show Develop menu in menu bar".
 
 1. From the Develop menu, select "Show Web Inspector".
+
+## Font Awesome
+
+- [Font Awesome](https://fontawesome.com/) — icon font to use in your projects.
+  - Create an account (Click “start for free”)
+  - Create a kit (ignore the messages that want you to pay for a pro account)
+  - Click on the kit number to view that kit
+  - Copy the script tag and paste it in the header of the HTML you wish to use (put it before your style.css import)
+  - Search for the icon you want
+  — Click on the one you want
+  - Copy the `<i>` tag and paste it in your HTML where you want the icon to go.
+
+## Resources
+
+- [Debugging code challenge](https://replit.com/@rkgallaway/Class-10-debugging#index.js)
