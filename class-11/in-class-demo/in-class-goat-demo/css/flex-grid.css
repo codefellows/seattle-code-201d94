@@ -1,0 +1,38 @@
+main {
+  width: 80%;
+  margin: 3rem auto;
+}
+
+.container {
+  border: 1px solid black;
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: 25% 10% 25% 40%;
+  grid-template-rows: 14rem 3rem 6rem 6rem 6rem;
+
+}
+.container div {
+  background-color: lightgray;
+  margin: .5rem;
+  border: 1px solid black;
+  /* flex: 1 1 20%; */
+}
+div:nth-child(2),
+div:nth-child(6) {
+  /* flex: 0 1 10%; */
+  background-color: lightgreen;
+}
+div:nth-child(4),
+div:nth-child(8) {
+  /* flex: 3 0 40%; */
+  background-color:skyblue;
+}
+
+#grab {
+  grid-column-start: 3;
+  background-color: red;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}

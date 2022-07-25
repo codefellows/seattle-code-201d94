@@ -43,3 +43,7 @@ This class will be the start of a new project. You will also be learning a new C
 1. The Array method of `_______` adds one or more elements to the beginning of an array.
 
 1. The Array method of `_______` changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
+
+### Resources
+
+- [CSS Grid Garden](https://cssgridgarden.com/)
