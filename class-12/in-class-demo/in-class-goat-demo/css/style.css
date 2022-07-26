@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: cornsilk;
+  color: saddlebrown;
+}
+
+h1 {
+  font-size: 5rem;
+  color: rosybrown;
+  line-height: .8;
+  margin: 3rem 0 1rem;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+main {
+  width: 1024px;
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  grid-template-rows: 6.5rem 10rem 20rem 40%;
+}
+
+#siteLogo {
+  width: 250px;
+  z-index: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+section {
+  /* This element will be a grid item, but also a flex container */
+  background-color: rgba(211, 187, 176, 0.3);
+  padding: 2rem;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+section img {
+  width: 460px;
+  max-height: 26rem;
+  border: 5px solid transparent;
+}
+
+section img:hover {
+  border: 5px solid rgb(169, 108, 28);
+  cursor: pointer;
+}
+
+ul {
+  margin: 1rem;
+}
+
+section + div {
+  grid-column-start: 2;
+}
+
+/* -- button -- */
+/* section + div {
+  background-color: rgba(128, 128, 128, 0.734);
+  color: lightgrey;
+  padding: .5rem 1rem;
+  width: max-content;
+  height: max-content;
+  font-size: .8rem;
+  margin: 1rem;
+
+  pointer-events: none;
+}
+
+section + div.clicks-allowed {
+  pointer-events: auto;
+  cursor: pointer;
+  background-color: rosybrown;
+  color: white;
+}
+
+section + div.clicks-allowed:hover {
+  background-color: rgb(211, 187, 175)
+} */
