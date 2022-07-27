@@ -13,10 +13,32 @@ h1 {
   color: rosybrown;
   line-height: .8;
   margin: 3rem 0 1rem;
+}
+
+nav {
+  display: flex;
+  align-content: flex-end;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
+}
+
+nav ul {
+  display: flex;
+  align-items: flex-end;
+  align-content: flex-end;
+  font-size: 1.5rem;
+}
+
+
+nav ul li {
+  padding: 0 1rem ;
+}
+
+a {
+  color: rosybrown;
+  text-decoration: none;
 }
 
 main {
