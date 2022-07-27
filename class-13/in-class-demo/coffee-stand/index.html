@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Stand</title>
+</head>
+<body>
+  <h1>Coffee Stand</h1>
+  <form action="">
+    <fieldset>
+      <legend>Your Order</legend>
+      <label for="firstName">First Name</label>
+      <input type="text" name="name" id="firstName">
+
+      <label for="sizeDrink">Drink Size</label>
+      <select name="drinkSize" id="sizeDrink">
+        <option value="6">6oz</option>
+        <option value="12">12oz</option>
+        <option value="16">16oz</option>
+        <option value="20">20oz</option>
+      </select>
+
+      <label for="milkType">Milk</label>
+      <select name="milk" id="milkType">
+        <option value="whole">Whole</option>
+        <option value="non-fat">Non-Fat</option>
+        <option value="almond">Almond</option>
+        <option value="coconut">Coconut</option>
+        <option value="soy">Soy</option>
+        <option value="no">None</option>
+      </select>
+
+      <label for="drinkType">Drink</label>
+      <select name="drink" id="drinkType">
+        <option value="americano">Americano</option>
+        <option value="latte">Latte</option>
+        <option value="black coffee">Black Coffee</option>
+        <option value="cold-brew">Cold Brew</option>
+        <option value="mocha">Mocha</option>
+        <option value="tea">Tea</option>
+      </select>
+
+    </fieldset>
+    <button type="submit">Submit Order</button>
+  </form>
+  <ul></ul>
+  <script src="js/app.js"></script>
+</body>
+</html>
