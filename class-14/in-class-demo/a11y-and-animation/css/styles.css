@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #F9E1E1;
+  color: #683B3B
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 5rem;
+  z-index: 99;
+  margin-bottom: .5rem;
+}
+
+header {
+  width: 100%;
+  background-color: #FDD3D3;
+  margin-bottom: 5rem;
+}
+
+nav {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+nav li {
+  margin: 1rem;
+  /* padding: 0.2rem 1rem; */
+}
+
+a {
+  color: #770303;
+}
+
+nav li a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  border: 10px solid transparent;
+}
+
+nav li a:hover {
+  border: 10px solid #f5e9e9;
+  background-color: #f5e9e9;
+  color: #9B0303;
+}
+
+main {
+  margin: 1rem auto;
+  max-width: 1024px
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  flex-basis: 64%;
+  margin-right: 2rem;
+}
+
+article p {
+  font-size: 1.2rem;
+  line-height: 150%;
+  /* font-family: 'Cookie', cursive; */
+}
+
+article aside {
+  border: 1px solid #542323;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+main aside {
+  flex-basis: 30%;
+}
+
+form fieldset {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+form input {
+  margin-bottom: 1rem;
+}
+
+.cta {
+  background-color: #57473A;
+  color: #DBC9BA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem 2rem;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  transition: background-color 2s ease;
+}
+
+.cta:hover {
+  cursor: pointer;
+  background-color: #f5e9e9;
+  color: #9B0303;
+}
+
+.cta:focus {
+  border-width: 10px;
+}
+
+.deals {
+  background-color: FloralWhite;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  animation-name: loadFromRight;
+  animation-duration: 3s;
+}
+
+@keyframes loadFromRight {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.deals h3 {
+  font-size: 1.5rem;
+  margin: .5rem 0 .8rem;
+}
+.deals ul {
+  margin: 1rem;
+}
+.deals ul li {
+  list-style: disc;
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
+.claim-deal {
+  background-color: #AB6969;
+  color: whitesmoke;
+  padding: .5rem;
+  border-radius: .3rem;
+}
+
+article img {
+  width: 550px;
+  margin: 2rem 0;
+}
+
+footer {
+  background-color: #B19A88;
+  width: 100%;
+  padding: 3rem;
+  margin-top: 3rem;
+}
